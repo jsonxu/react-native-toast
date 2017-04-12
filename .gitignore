@@ -1,0 +1,82 @@
+# OSX
+#
+.DS_Store
+
+# Xcode
+#
+build/
+!Android/toa-plugin-framewok/lib-react-native/src/main/java/com/facebook/react/common/build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+project.xcworkspace
+
+# Android/IJ
+#
+*.iml
+.idea
+.gradle
+local.properties
+
+# node.js
+#
+node_modules/
+npm-debug.log
+
+# BUCK
+buck-out/
+\.buckd/
+android/app/libs
+android/keystores/debug.keystore
+
+.eslintcache
+iOS/PAToapAPPNew/PANewToapAPP/Images.xcassets/NewWealth/questionSignIcon.imageset/Oval 38 + ? Copy 2@2x.png
+iOS/PAToapAPPNew/PANewToapAPP/Images.xcassets/NewWealth/questionSignIcon.imageset/Oval 38 + ? Copy 2@3x.png
+
+output/
+gradlew
+gradlew.bat
+gradle-wrapper.jar
+gradle-wrapper.properties
+
+# android react package output
+android_react_output/
+Android/java_pid10020.hprof
+Android/java_pid1984.hprof
+
+# vs code
+.vscode/
+tsconfig.json
+ToaReactApps_74.package
+com.paic.plugin.app.react.apk
+ToaReactApps_75.package
+Pods-acknowledgements.markdown
+Pods-acknowledgements.plist
+Pods-frameworks.sh
+Pods.release.xcconfig
+Pods-resources.sh
+Pods.debug.xcconfig
+Pods-dummy.m
+.swp
+# freeline
+freeline/
+freeline.py
+PAUIModule.xcscheme
+
+ios/Pods/
+ios/Podfile.lock
+
+ToaReactApps.jsbundle
+ios/PAUIModule/ReactBase/outputRN

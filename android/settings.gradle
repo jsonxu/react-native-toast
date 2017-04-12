@@ -1,0 +1,3 @@
+rootProject.name = 'cellToast'
+
+include ':app'
