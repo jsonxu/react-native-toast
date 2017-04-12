@@ -2,6 +2,35 @@
  
  cellToast Created by jsonxu on 17/3/28.
 
+### 下载&&安装&&运行
+
+#### 下载资源
+
+```
+
+git clone https://github.com/jsonxu/react-native-toast.git
+
+```
+
+#### 安装node依赖插件
+
+```
+cd react-native-toast
+
+npm install
+
+```
+
+#### 运行
+
+```
+npm start
+
+react-native run-ios
+
+```
+
+
 ### 初始设置
 
 #### toastType(toast类型)
@@ -55,3 +84,6 @@ render中return组件：
     accessibilityLabel=""
   />
 ```
+
+## 授权
+The [MIT License](LICENSE).
