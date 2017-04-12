@@ -35,11 +35,11 @@ react-native run-ios
 
 #### toastType(toast类型)
 
-  1.text (单行和多行文本，少于20个汉字)
-  2.loadSucc (加载成功)
-  3.loadFail (加载失败)
-  4.loading (加载中)
-  5.netFail (网络连接失败)
+  1. text (单行和多行文本，少于20个汉字)
+  2. loadSucc (加载成功)
+  3. loadFail (加载失败)
+  4. loading (加载中)
+  5. netFail (网络连接失败)
     
 ```
 this.state = {
